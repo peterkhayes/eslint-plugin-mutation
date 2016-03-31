@@ -13,7 +13,7 @@ By default, "this" and "global" are allowed to be mutated.
 ```
   plugins: [
     "mutation"
-  ]
+  ],
   rules: {
     "mutation/no-mutation": 2
   }
@@ -23,7 +23,7 @@ This can be customized.
 ```
   plugins: [
     "mutation"
-  ]
+  ],
   rules: {
     "mutation/no-mutation": [2, {exceptions: ["this", "that", "global", "window"]}]
   }
