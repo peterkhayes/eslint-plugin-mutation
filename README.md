@@ -1,12 +1,13 @@
 # eslint-plugin-mutation
 Checks for mutations of objects. Allows a whitelist of mutable objects.
 
-## Usage
+## Getting started
 
 #### Installation
 `npm i --save-dev eslint-plugin-mutation`
 
-#### In `.eslintrc`
+#### Usage
+Add the following to your `.eslintrc`
 
 By default, "this" and "global" are allowed to be mutated.
 ```
@@ -28,4 +29,5 @@ This can be customized.
   }
 ```
 
-PRs gladly accepted.
+## Contributing
+Please submit a PR.
